@@ -10,6 +10,12 @@ class Flight(db.Model):
     destination = db.Column(db.String, nullable=False)
     duration = db.Column(db.Integer, nullable=False)
 
+    def pp(self):
+        print(f"{self.origin}->{self.destination}")
+
+    def __str__(self):
+        return self.origin
+
 
 class Passenger(db.Model):
     __tablename__ = "passengers"
