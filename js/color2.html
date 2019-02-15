@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>color 2</title>
+</head>
+<body>
+<script>
+    if (!localStorage.getItem('count')) {
+        localStorage.setItem('count',0)
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+
+        setInterval(count, 1000)
+
+        function count() {
+            let count = localStorage.getItem('count')
+            count++
+            localStorage.setItem('count',count)
+            document.querySelector('#count').innerHTML=count
+        }
+    })
+</script>
+<h1 id="hello">hello</h1>
+<p id="count"></p>
+
+
+</body>
+</html>

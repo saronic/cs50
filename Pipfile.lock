@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2d98d9fa9bda1db133c2bcca5fbfed8f7cace2e50f65c215ab97f818c2adc08c"
+            "sha256": "0dd38a49b34b3fe4f4d28fab5d6c4f2a4e0049818aa611ebe63dc7c74120dd03"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -37,6 +37,13 @@
             ],
             "index": "pypi",
             "version": "==2.3.2"
+        },
+        "get": {
+            "hashes": [
+                "sha256:27db4f4331b3da349f16e04a7f5a763b46bc0d3ab8ff79b9dcca6dbdd18f4f1f",
+                "sha256:69c41b090d82a01ed106fddaf1678a0d6a029579e3537464d6fde5f18eac8520"
+            ],
+            "version": "==2018.11.19"
         },
         "itsdangerous": {
             "hashes": [
@@ -85,6 +92,13 @@
             ],
             "version": "==1.1.0"
         },
+        "post": {
+            "hashes": [
+                "sha256:00d9e0b373fc56948106e7339230b064c0c7586b2ad589991209f2e87d06b3ab",
+                "sha256:4b893a69e5bda4ca3d6fa9c9fd1fd4440b98d32e22aa3c4d44fb3d1d5ddc55c2"
+            ],
+            "version": "==2018.11.20"
+        },
         "psycopg2": {
             "hashes": [
                 "sha256:02445ebbb3a11a3fe8202c413d5e6faf38bb75b4e336203ee144ca2c46529f94",
@@ -120,6 +134,28 @@
             ],
             "index": "pypi",
             "version": "==2.7.7"
+        },
+        "public": {
+            "hashes": [
+                "sha256:4f104163de000e4d430c03a91ac8918a8d615e2452007ee7108dcc4e5caa2f6c",
+                "sha256:b2250d4aca6719b66090402400de22777a37b0d2e9ac3ff74dc3f348725090fa"
+            ],
+            "version": "==2018.11.20"
+        },
+        "query-string": {
+            "hashes": [
+                "sha256:bf7b69adeba28e75e12204d5982c9ce0033c160199bd4822da7ad47aa31062ad",
+                "sha256:e5ab828c8cdba6500b5517967bb6101d80a636f5be419e93bbcb3042f6aad67e"
+            ],
+            "version": "==2018.11.20"
+        },
+        "request": {
+            "hashes": [
+                "sha256:1fa6311804d4a92b4bd7516ff04be3cb886dd7b46d218e75e4f491516e74b83f",
+                "sha256:5ffb6c59c7d26bfefb3ed81bbe7228cd5764565c7294a4901d5d81d8d6ed5078"
+            ],
+            "index": "pypi",
+            "version": "==2018.11.20"
         },
         "sqlalchemy": {
             "hashes": [
